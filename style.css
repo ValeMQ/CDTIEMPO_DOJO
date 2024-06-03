@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: no;
+}
+
+body {
+    font-family:"Roboto";
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.cities a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cities a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.weather-card {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.weather-card p {
+    margin: 5px 0;
+}
+
+.cookie-message {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cookie-message button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
